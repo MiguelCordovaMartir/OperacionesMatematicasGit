@@ -28,15 +28,16 @@ namespace OperacionesMatematicasGit
             double num1 = int.Parse(txtNumero1.Text);
             double num2 = int.Parse(txtNumero2.Text);
 
-            //proceso de la operacion suma, resta 
+            //proceso de la operacion suma, resta Multipliacion
 
             double suma = num1 + num2;
             double resta = num1 - num2;
-
+            double multiplicacion = num1 * num2;
 
             //salida 
             txtResultado.Text = $" La suma es: {suma} " +
-                $"La resta es: {resta}";
+                $"La resta es: {resta}" +
+                $"La Multiplicacion es: {multiplicacion}";
 
         }
 
